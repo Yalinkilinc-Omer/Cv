@@ -1,5 +1,6 @@
 @font-face 
 {
+    
     font-family: 'droid_sansregular';
     src: url('DroidSans-webfont.eot');
     src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
@@ -15,29 +16,29 @@ body
 {
     background-image: url('greyzz.png');
 }
-
+/* Choix de la police */
 h1, h2
 {
     font-family: 'droid_sansregular', 'Arial', sans-serif;
 }
-
+/* Alignement du text au centre */
 h1, h1 + p
 {
     text-align: center;
 }
-
+/* Insertion de l'image */
 img
 {
     float: right;
     border: 1px solid black;
     box-shadow: 2px 2px 2px black;
 }
-
+/* couleur police h2*/
 h2
 {
     color: #6E4A46;
 }
-
+/* Paramétrage des sections */
 section
 {
     display: inline-block;
